@@ -5,7 +5,7 @@ const { key_phrase } = require("./env/details")
 
 const provider = new HDWalletProvider(
   key_phrase,
-  "https://mainnet.infura.io/v3/d188fcc66c194663b195626d5d920ec8"
+  "https://rinkeby.infura.io/v3/d188fcc66c194663b195626d5d920ec8"
 );
 const web3 = new Web3(provider);
 
